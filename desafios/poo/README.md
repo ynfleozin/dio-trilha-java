@@ -1,3 +1,12 @@
+# [DIO](www.dio.me) - Trilha Java Básico
+
+## POO - Desafio
+
+### Modelagem e Diagramação de um Componente iPhone
+
+Neste desafio, fui responsável por modelar e diagramar a representação UML do componente iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
+
+```mermaid
 classDiagram
     class ReprodutorMusical {
         +tocar()
@@ -23,3 +32,4 @@ classDiagram
     iPhone --> ReprodutorMusical
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
+```
